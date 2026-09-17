@@ -8,29 +8,3 @@ html {
   background-image: url(./images/background.jpg);
   background-size: cover;
 }
-
-body {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-
-  min-width: 448px;
-  width: 60vw;
-  height: 90vh;
-  margin: auto;
-  margin-top: 5vh;
-}
-
-.body-container {
-  height: 90%;
-  width: 100%;
-  border-radius: 25px;
-  background-color: var(--color-main);
-}
-
-@media only screen and (max-width: 560px) {
-  body {
-    min-width: unset;
-    width: 80vw;
-  }
-}
