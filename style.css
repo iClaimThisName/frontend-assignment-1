@@ -8,7 +8,6 @@ body {
   width: 60vw;
   height: 100vh;
   margin: auto;
-  margin-top: 5vh;
 
   overflow-y: hidden;
 }
@@ -16,8 +15,54 @@ body {
 .body-container {
   height: 80%;
   width: 100%;
-  border-radius: 25px;
+  border-radius: 18px;
   background-color: var(--color-main);
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: fit-content;
+}
+
+.rounded-tab {
+  /* credits: https://css-tip.com/rounded-tab/ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  --tab-radius: calc(100cqw/100);
+
+  padding-inline: 0.8rem;
+  width: 14%;
+  padding-top: 1vh;
+
+  border-inline: var(--tab-radius) solid var(--color-main);
+  border-radius: calc(2 * var(--tab-radius)) calc(2 * var(--tab-radius)) 0 0 /
+    var(--tab-radius);
+  mask:
+    radial-gradient(
+        var(--tab-radius) at var(--tab-radius) 0,
+        #0000 98%,
+        #000 101%
+      )
+      calc(-1 * var(--tab-radius)) 100%/100% var(--tab-radius) repeat-x,
+    conic-gradient(#000 0 0) padding-box;
+
+  background: linear-gradient(0deg, var(--color-main), var(--color-main))
+    border-box;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.tab-text {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-header);
 }
 
 .footer {
@@ -30,5 +75,19 @@ body {
   body {
     min-width: unset;
     width: 80vw;
+  }
+
+  .tab-text {
+    font-size: 0.8rem;
+  }
+
+  .rounded-tab {
+    padding-top: 0.5vh;
+  }
+}
+
+@media only screen and (max-height: 560px) {
+  .tab-text {
+    font-size: 0.8rem;
   }
 }

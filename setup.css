@@ -1,5 +1,6 @@
 :root {
   --color-main: whitesmoke;
+  --color-header: green;
 }
 
 html {
@@ -7,4 +8,10 @@ html {
   width: 100vw;
   background-image: url(./images/background.jpg);
   background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  padding: none;
+  margin: none;
 }
