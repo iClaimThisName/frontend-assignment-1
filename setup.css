@@ -1,6 +1,8 @@
 :root {
   --color-main: whitesmoke;
-  --color-header: green;
+  --color-secondary: rgb(237, 237, 237);
+  --color-tertiary: rgb(213, 253, 255);
+  --color-header: rgb(54, 153, 173);
 }
 
 html {

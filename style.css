@@ -5,7 +5,7 @@ body {
   flex-direction: column;
 
   min-width: 448px;
-  width: 60vw;
+  width: 75vw;
   height: 100vh;
   margin: auto;
 
@@ -26,7 +26,31 @@ body {
   height: fit-content;
 }
 
-.rounded-tab {
+.tab {
+  --tab-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+
+  padding-inline: 0.8rem;
+  margin-inline: 0.5rem;
+  width: 14%;
+  height: fit-content;
+  padding-top: 1vh;
+
+  border-top-left-radius: var(--tab-radius);
+  border-top-right-radius: var(--tab-radius);
+  background-color: var(--color-secondary);
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--color-tertiary);
+  }
+}
+
+.tab-rounded {
   /* credits: https://css-tip.com/rounded-tab/ */
   display: flex;
   justify-content: center;
@@ -36,7 +60,7 @@ body {
 
   padding-inline: 0.8rem;
   width: 14%;
-  padding-top: 1vh;
+  padding-top: 2vh;
 
   border-inline: var(--tab-radius) solid var(--color-main);
   border-radius: calc(2 * var(--tab-radius)) calc(2 * var(--tab-radius)) 0 0 /
@@ -63,6 +87,10 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: var(--color-header);
+
+  &.selected {
+    font-size: 1.5rem;
+  }
 }
 
 .footer {
