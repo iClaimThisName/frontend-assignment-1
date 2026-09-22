@@ -1,0 +1,25 @@
+:root {
+  --color-main: rgb(245, 245, 245);
+  --color-secondary: rgba(237, 237, 237, 0.973);
+  --color-tertiary: rgb(245, 245, 245);
+  --color-blue: rgb(115, 201, 216);
+  --color-orange: rgb(240, 174, 99);
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/wallpaper.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  padding: none;
+  margin: none;
+}
+
+@font-face {
+  font-family: daydream;
+  src: url(../fonts/daydream.otf);
+}
