@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  height: 85%;
+  width: 90%;
+  margin: auto;
+  margin-top: 10vh;
+  grid-template: 2fr 1fr 2fr / repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.grid-item {
+  background-color: var(--color-orange);
+  border-radius: 25px;
+
+  &.intro {
+    grid-area: 1 / span 4;
+    background-color: var(--color-blue);
+  }
+
+  &.games-title {
+    grid-area: 2 / span 2;
+    font-family: daydream;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-blue);
+    background-color: var(--color-main);
+  }
+
+  &.about {
+    grid-area: 2 / 3 / span 1 / span 2;
+  }
+}

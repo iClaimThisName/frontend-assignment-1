@@ -4,12 +4,21 @@
     width: 80vw;
   }
 
-  .tab-text {
-    font-size: 0.8rem;
+  .tab {
+    margin-inline: 0.2rem;
   }
 
-  .rounded-tab {
-    padding-top: 0.5vh;
+  .tab-text {
+    font-size: 0.4rem;
+
+    &.selected {
+      font-size: 0.6rem;
+    }
+  }
+
+  .tab-rounded {
+    padding-top: 1vh;
+    padding-inline: 1.5rem;
   }
 }
 
