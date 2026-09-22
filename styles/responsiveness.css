@@ -20,6 +20,31 @@
     padding-top: 1vh;
     padding-inline: 1.5rem;
   }
+
+  .home-grid-container {
+    grid-template: 2fr 1fr 1fr 3fr 2fr / auto;
+    margin-top: 5vh;
+  }
+
+  .home-grid-item {
+    &.games-title {
+      grid-area: 3 / span 4;
+
+      font-size: 1.5rem;
+    }
+
+    &.about {
+      grid-area: 2 / span 4;
+    }
+
+    &.game-1 {
+      grid-area: 4 / 1 / span 1 / span 2;
+    }
+
+    &.game-2 {
+      grid-area: 4 / 3 / span 1 / span 2;
+    }
+  }
 }
 
 @media only screen and (max-height: 560px) {

@@ -1,33 +1,50 @@
-.grid-container {
+.home-grid-container {
   display: grid;
   height: 85%;
   width: 90%;
   margin: auto;
   margin-top: 10vh;
-  grid-template: 2fr 1fr 2fr / repeat(4, 1fr);
+  grid-template: 2fr 1fr 2fr / auto;
   gap: 20px;
 }
 
-.grid-item {
-  background-color: var(--color-orange);
+.home-grid-item {
+  display: flex;
+
   border-radius: 25px;
+
+  background-color: var(--color-orange);
 
   &.intro {
     grid-area: 1 / span 4;
+
     background-color: var(--color-blue);
   }
 
   &.games-title {
     grid-area: 2 / span 2;
+
+    text-align: left;
+    align-self: flex-end;
+    text-indent: 1vw;
+
     font-family: daydream;
-    font-size: 0.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    text-align: center;
+
     color: var(--color-blue);
     background-color: var(--color-main);
   }
 
   &.about {
     grid-area: 2 / 3 / span 1 / span 2;
+  }
+
+  &.game-1 {
+    grid-area: 3 / 1 / span 1 / span 1;
+  }
+
+  &.game-2 {
+    grid-area: 3 / 2 / span 1 / span 1;
   }
 }
