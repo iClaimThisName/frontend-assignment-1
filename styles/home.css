@@ -1,10 +1,10 @@
 .home-grid-container {
   display: grid;
-  height: 85%;
+  height: 80%;
   width: 90%;
   margin: auto;
   margin-top: 10vh;
-  grid-template: 2fr 1fr 2fr / auto;
+  grid-template: 2fr 1fr 2fr / repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -13,7 +13,7 @@
 
   border-radius: 25px;
 
-  background-color: var(--color-orange);
+  background-color: rgb(195, 245, 194);
 
   &.intro {
     grid-area: 1 / span 4;
@@ -38,13 +38,16 @@
 
   &.about {
     grid-area: 2 / 3 / span 1 / span 2;
+    background-color: var(--color-orange);
   }
 
   &.game-1 {
     grid-area: 3 / 1 / span 1 / span 1;
+    background-color: var(--color-orange);
   }
 
   &.game-2 {
     grid-area: 3 / 2 / span 1 / span 1;
+    background-color: var(--color-orange);
   }
 }
