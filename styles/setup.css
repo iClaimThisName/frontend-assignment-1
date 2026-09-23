@@ -1,9 +1,9 @@
 :root {
-  --color-main: rgb(245, 245, 245);
-  --color-secondary: rgba(237, 237, 237, 0.973);
-  --color-tertiary: rgb(245, 245, 245);
-  --color-blue: rgb(115, 201, 216);
-  --color-orange: rgb(240, 174, 99);
+  --color-main: #f5f5f5;
+  --color-secondary: #edededf8;
+  --color-tertiary: #f5f5f5;
+  --color-blue: #73c9d8;
+  --color-orange: #f0ae63;
 }
 
 html {
