@@ -6,6 +6,7 @@
 
   .tab {
     margin-inline: 0.2rem;
+    padding-inline: 0.4rem;
   }
 
   .tab-text {
@@ -34,7 +35,7 @@
       font-size: 1.5rem;
     }
 
-    &.about {
+    &.contact {
       grid-area: 2 / span 4;
     }
 
@@ -61,5 +62,9 @@
     &.games-title {
       font-size: 1rem;
     }
+  }
+
+  .get-in-touch {
+    font-size: 0.8rem;
   }
 }
