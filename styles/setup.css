@@ -3,6 +3,7 @@
   --color-secondary: #edededf8;
   --color-tertiary: #f5f5f5;
   --color-blue: #73c9d8;
+  --color-blue-gradient: #1b5c99;
   --color-orange: #f0ae63;
 }
 
@@ -20,6 +21,6 @@ a {
 }
 
 @font-face {
-  font-family: daydream, sans-serif;
+  font-family: daydream;
   src: url(../fonts/daydream.otf);
 }
