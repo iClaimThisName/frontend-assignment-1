@@ -36,7 +36,7 @@
     text-transform: uppercase;
 
     color: var(--color-blue);
-    background-color: var(--color-main);
+    background-color: none;
   }
 
   &.contact {
@@ -80,7 +80,7 @@
   font-size: calc(0.5vw + 0.5em);
 
   border-radius: 50px;
-  color: var(--color-main);
+  color: var(--color-white);
   background-color: var(--color-orange);
 }
 
@@ -92,7 +92,7 @@
 
   border-radius: 100%;
   border: 2px solid var(--color-orange);
-  background-color: var(--color-main);
+  background-color: var(--color-white);
 
   &:hover {
     cursor: pointer;

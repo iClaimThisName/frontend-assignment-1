@@ -1,10 +1,10 @@
 :root {
-  --color-main: #f5f5f5;
-  --color-secondary: #edededf8;
-  --color-tertiary: #f5f5f5;
-  --color-blue: #73c9d8;
-  --color-blue-gradient: #1b5c99;
-  --color-orange: #f0ae63;
+  --color-transparent: rgb(245, 245, 245, 0.8);
+  --color-tab: hsla(0, 0%, 93%, 0.9);
+  --color-white: rgb(245, 245, 245);
+  --color-blue: #73c9d8d2;
+  --color-blue-gradient: #3973aa1c;
+  --color-orange: rgb(240, 174, 99);
 }
 
 html {

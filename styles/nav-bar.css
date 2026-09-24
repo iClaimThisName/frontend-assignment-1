@@ -21,11 +21,12 @@
 
   border-top-left-radius: var(--tab-radius);
   border-top-right-radius: var(--tab-radius);
-  background-color: var(--color-secondary);
+  background-color: var(--color-tab);
+  backdrop-filter: blur(5px);
 
   &:hover {
     cursor: pointer;
-    background-color: var(--color-tertiary);
+    background-color: var(--color-transparent);
   }
 }
 
@@ -41,7 +42,7 @@
   padding-top: 2vh;
 
   /* --credits: https://css-tip.com/rounded-tab/ */
-  border-inline: var(--tab-radius) solid var(--color-main);
+  border-inline: var(--tab-radius) solid rgba(255, 255, 255, 0);
   border-radius: calc(2 * var(--tab-radius)) calc(2 * var(--tab-radius)) 0 0 /
     var(--tab-radius);
   mask:
@@ -53,9 +54,9 @@
       calc(-1 * var(--tab-radius)) 100%/100% var(--tab-radius) repeat-x,
     conic-gradient(#000 0 0) padding-box;
 
-  background: linear-gradient(0deg, var(--color-main), var(--color-main))
-    border-box;
+  background-color: var(--color-transparent);
   /* --end credits*/
+  backdrop-filter: blur(5px);
 
   &:hover {
     cursor: pointer;
