@@ -50,7 +50,67 @@
         <div class="tab-text selected">contact</div>
       </a>
     </div>
-    <div class="main"></div>
+    <div class="main">
+      <form
+        action="MAILTO:rebecca.rupert@learnet.se?subject=Form Submission"
+        enctype="text/plain"
+        method="post"
+        class="contact-grid-container"
+      >
+        <div class="contact-grid-item contact-header">Contact form</div>
+        <div class="contact-grid-item first-name">
+          <div class="contact-label">First Name</div>
+          <input
+            required
+            type="text"
+            id="first-name"
+            name="firstname"
+            placeholder="First Name"
+          />
+        </div>
+        <div class="contact-grid-item last-name">
+          <div class="contact-label">Last Name</div>
+          <input
+            required
+            type="text"
+            id="last-name"
+            name="lastname"
+            placeholder="Last Name"
+          />
+        </div>
+        <fieldset class="contact-grid-item contact-category">
+          <div class="contact-label">Category</div>
+          <label
+            ><input
+              type="radio"
+              name="category"
+              value="feedback"
+            />feedback</label
+          >
+          <label
+            ><input type="radio" name="category" value="bug report" />bug
+            report</label
+          >
+          <label
+            ><input type="radio" name="category" value="career" />career</label
+          >
+        </fieldset>
+        <div class="contact-grid-item contact-message">
+          <div class="contact-label">type message</div>
+          <textarea
+            required
+            type="textarea"
+            id="message"
+            name="message"
+            placeholder="type message here..."
+          >
+          </textarea>
+        </div>
+        <div class="contact-grid-item contact-submit">
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </div>
     <div class="footer">&copy2026 Bits 'n Bobs Studios</div>
   </body>
 </html>
