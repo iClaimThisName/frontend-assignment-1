@@ -58,41 +58,51 @@
         class="contact-grid-container"
       >
         <div class="contact-grid-item contact-header">Contact form</div>
-        <div class="contact-grid-item first-name">
-          <div class="contact-label">First Name</div>
+        <div class="contact-grid-item contact-input">
+          <div class="contact-label">Name</div>
           <input
             required
             type="text"
-            id="first-name"
-            name="firstname"
-            placeholder="First Name"
+            id="name"
+            name="name"
+            placeholder="Name"
           />
         </div>
-        <div class="contact-grid-item last-name">
-          <div class="contact-label">Last Name</div>
+        <div class="contact-grid-item contact-input">
+          <div class="contact-label">Email</div>
           <input
             required
             type="text"
-            id="last-name"
-            name="lastname"
-            placeholder="Last Name"
+            id="email"
+            name="email"
+            placeholder="Email"
           />
         </div>
         <fieldset class="contact-grid-item contact-category">
           <div class="contact-label">Category</div>
           <label
             ><input
+              required
               type="radio"
               name="category"
               value="feedback"
             />feedback</label
           >
           <label
-            ><input type="radio" name="category" value="bug report" />bug
-            report</label
+            ><input
+              required
+              type="radio"
+              name="category"
+              value="bug report"
+            />bug report</label
           >
           <label
-            ><input type="radio" name="category" value="career" />career</label
+            ><input
+              required
+              type="radio"
+              name="category"
+              value="career"
+            />career</label
           >
         </fieldset>
         <div class="contact-grid-item contact-message">

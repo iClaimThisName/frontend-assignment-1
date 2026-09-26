@@ -51,6 +51,36 @@
     font-size: 0.8rem;
     padding-right: 3rem;
   }
+
+  .contact-grid-item {
+    &.contact-header {
+      font-size: 1.7rem;
+      margin-bottom: 0;
+    }
+
+    &.contact-input {
+      padding: 0rem;
+    }
+
+    &.contact-category {
+      padding: 0;
+      padding-right: 1rem;
+      justify-self: center;
+    }
+  }
+
+  .contact-label {
+    font-size: 0.8rem;
+  }
+
+  textarea {
+    width: 70%;
+    padding: none;
+  }
+
+  input[type="text"] {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-height: 560px) {
@@ -71,5 +101,30 @@
   .get-in-touch {
     font-size: 0.6rem;
     padding-right: 1rem;
+  }
+
+  .contact-grid-container {
+    grid-template: 0fr 2fr 2fr 16fr 2fr 1fr / repeat(2, 1fr);
+  }
+
+  .contact-grid-item {
+    &.contact-header {
+      font-size: 0rem;
+      margin: 0;
+    }
+  }
+
+  .contact-label {
+    font-size: 0.8rem;
+  }
+
+  input[type="submit"] {
+    font-size: 0.8rem;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
   }
 }
