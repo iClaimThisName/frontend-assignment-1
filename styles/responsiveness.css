@@ -59,6 +59,10 @@
     bottom: calc(2vw - 1rem);
   }
 
+  .game-container {
+    grid-area: span 1 / span 2;
+  }
+
   .get-in-touch {
     font-size: 0.8rem;
     padding-right: 3rem;
