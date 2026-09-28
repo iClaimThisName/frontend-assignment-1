@@ -4,6 +4,13 @@
     width: 80vw;
   }
 
+  header {
+    &.home {
+      padding-right: 0;
+      margin: 1rem;
+    }
+  }
+
   .tab {
     margin-inline: 0.2rem;
     padding-inline: 0.4rem;
@@ -47,6 +54,11 @@
       grid-area: 4 / 3 / span 1 / span 2;
     }
   }
+
+  .home-illustration {
+    bottom: calc(2vw - 1rem);
+  }
+
   .get-in-touch {
     font-size: 0.8rem;
     padding-right: 3rem;
@@ -84,6 +96,18 @@
 }
 
 @media only screen and (max-height: 560px) {
+  header {
+    &.home {
+      font-size: 1rem;
+      margin: 1rem;
+    }
+  }
+
+  .home-illustration {
+    height: 100%;
+    width: auto;
+  }
+
   .tab-text {
     font-size: 0.6rem;
 

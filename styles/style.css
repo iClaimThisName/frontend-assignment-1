@@ -22,8 +22,49 @@ body {
   backdrop-filter: blur(5px);
 }
 
+header {
+  margin: 2rem;
+  font-family: daydream;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--color-blue);
+
+  &.home {
+    font-size: calc(1rem + 2vw);
+    padding-right: 40%;
+    text-align: left;
+
+    color: var(--color-white);
+  }
+}
+
+h1 {
+  margin: 0;
+
+  font-family: daydream, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+  color: var(--color-blue);
+  background-color: none;
+}
+
 .footer {
   font-size: 1rem;
   text-transform: uppercase;
+  color: var(--color-blue);
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.orange {
+  color: var(--color-orange);
+}
+
+.blue {
   color: var(--color-blue);
 }
