@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  height: 70%;
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: var(--color-orange);
+
+  &.slide {
+    grid-area: span 3 / span 1;
+  }
+
+  &.slide-indicator {
+    grid-area: span 1 / span 1;
+  }
+
+  &.game-title {
+    grid-area: span 1 / span 1;
+    font-size: 2rem;
+  }
+
+  &.game-description {
+    grid-area: span 3 / span 1;
+  }
+}
