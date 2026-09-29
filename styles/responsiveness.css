@@ -30,7 +30,7 @@
   }
 
   .home-grid-container {
-    grid-template: 4fr 1fr 1fr 3fr 2fr / repeat(4, 1fr);
+    grid-template: 4fr 1fr 1fr 3fr 3fr / repeat(4, 1fr);
     margin-top: 5vh;
     height: 90%;
   }
