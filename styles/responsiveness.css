@@ -6,9 +6,12 @@
 
   header {
     &.home {
-      padding-right: 0;
-      margin: 1rem;
+      font-size: 1.4rem;
     }
+  }
+
+  .text {
+    font-size: 1rem;
   }
 
   .tab {
@@ -36,6 +39,10 @@
   }
 
   .home-grid-item {
+    &.intro {
+      padding: 1.5rem;
+    }
+
     &.games-title {
       grid-area: 3 / span 4;
 
@@ -53,6 +60,10 @@
     &.game-2 {
       grid-area: 4 / 3 / span 1 / span 2;
     }
+  }
+
+  .intro-text-padding {
+    padding-right: 5rem;
   }
 
   .home-illustration {
@@ -103,8 +114,11 @@
   header {
     &.home {
       font-size: 1rem;
-      margin: 1rem;
     }
+  }
+
+  .text {
+    font-size: 1rem;
   }
 
   .home-illustration {
@@ -121,6 +135,10 @@
   }
 
   .home-grid-item {
+    &.intro {
+      padding: 1rem;
+    }
+
     &.games-title {
       font-size: 1rem;
     }

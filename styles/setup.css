@@ -25,3 +25,8 @@ a {
   font-family: daydream;
   src: url(../fonts/daydream.otf);
 }
+
+@font-face {
+  font-family: pixelify;
+  src: url(../fonts/PixelifySans-Medium.ttf);
+}

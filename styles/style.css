@@ -23,7 +23,6 @@ body {
 }
 
 header {
-  margin: 2rem;
   font-family: daydream;
   font-size: 3rem;
   text-transform: uppercase;
@@ -33,7 +32,6 @@ header {
 
   &.home {
     font-size: calc(1rem + 2vw);
-    padding-right: 40%;
     text-align: left;
 
     color: var(--color-white);
@@ -51,10 +49,17 @@ h1 {
   background-color: none;
 }
 
+.text {
+  font-family: pixelify, sans-serif;
+  font-size: 1.5rem;
+}
+
 .footer {
+  font-family: pixelify, sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--color-blue);
+  mix-blend-mode: multiply;
 }
 
 .white {
