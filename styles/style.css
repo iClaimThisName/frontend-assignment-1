@@ -77,3 +77,11 @@ footer {
 .blue {
   color: var(--color-blue);
 }
+
+.background-gradient {
+  background: linear-gradient(
+    160deg,
+    var(--color-blue) 50%,
+    var(--color-blue-gradient) 100%
+  );
+}

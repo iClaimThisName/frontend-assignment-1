@@ -19,12 +19,6 @@
     grid-area: 1 / span 4;
     flex-direction: column;
     padding: 3rem;
-
-    background: linear-gradient(
-      160deg,
-      var(--color-blue) 50%,
-      var(--color-blue-gradient) 100%
-    );
   }
 
   &.games-title {

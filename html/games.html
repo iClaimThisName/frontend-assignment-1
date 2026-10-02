@@ -52,12 +52,39 @@
     </div>
     <div class="main">
       <div class="grid">
-        <div class="grid-item slide"></div>
-        <header>
-          <h1 class="grid-item game-title blue">Pile of crab!!</h1>
+        <div class="grid-item slide-container">
+          <img class="slide-images" src="../images/crab.png" />
+          <img class="slide-images" src="../images/cozy-valley.png" />
+          <img class="slide-images" src="../images/picterra.png" />
+          <img class="slide-images" src="../images/sunburn.png" />
+        </div>
+        <header class="grid-item white background-gradient">
+          <h1 class="slide-titles white">Pile of crab!!</h1>
+          <h1 class="slide-titles white">Cozy Valley</h1>
+          <h1 class="slide-titles white">Picterra</h1>
+          <h1 class="slide-titles white">Sunburn Circuit</h1>
         </header>
-        <div class="grid-item game-description"></div>
-        <div class="grid-item slide-indicator"></div>
+        <div class="grid-item game-description">
+          <div class="slide-texts">crab</div>
+          <div class="slide-texts">cozy valley</div>
+          <div class="slide-texts">picterra</div>
+          <div class="slide-texts">sunburn circuit</div>
+        </div>
+        <div class="grid-item slide-indicator-container">
+          <button class="slide-button" onclick="updateSlide(1)">
+            <div class="slide-indicators"></div>
+          </button>
+          <button class="slide-button" onclick="updateSlide(2)">
+            <div class="slide-indicators"></div>
+          </button>
+          <button class="slide-button" onclick="updateSlide(3)">
+            <div class="slide-indicators"></div>
+          </button>
+          <button class="slide-button" onclick="updateSlide(4)">
+            <div class="slide-indicators"></div>
+          </button>
+          <script type="text/javascript" src="../scripts/slideshow.js"></script>
+        </div>
       </div>
     </div>
     <footer>copyright 2026 Bits 'n Bobs Studios</footer>
