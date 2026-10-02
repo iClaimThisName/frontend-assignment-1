@@ -14,11 +14,6 @@
   align-items: center;
   justify-content: space-evenly;
 
-  &.contact-header {
-    grid-area: 1 / span 2;
-    align-self: flex-end;
-  }
-
   &.contact-input {
     padding-right: 2rem;
     justify-self: flex-end;
@@ -39,6 +34,11 @@
   &.contact-submit {
     grid-area: 5 / span 2;
   }
+}
+
+.contact-header {
+  grid-area: 1 / span 2;
+  align-self: flex-end;
 }
 
 .contact-label {

@@ -22,7 +22,9 @@ body {
   backdrop-filter: blur(5px);
 }
 
-header {
+h1 {
+  margin: 0;
+
   font-family: daydream;
   font-size: 3rem;
   text-transform: uppercase;
@@ -38,7 +40,7 @@ header {
   }
 }
 
-h1 {
+h2 {
   margin: 0;
 
   font-family: daydream, sans-serif;
@@ -54,7 +56,9 @@ h1 {
   font-size: 1.5rem;
 }
 
-.footer {
+footer {
+  margin: 0;
+
   font-family: pixelify, sans-serif;
   font-size: 1rem;
   text-transform: uppercase;

@@ -21,6 +21,10 @@ a {
   margin: none;
 }
 
+header {
+  margin: 0;
+}
+
 @font-face {
   font-family: daydream;
   src: url(../fonts/daydream.otf);

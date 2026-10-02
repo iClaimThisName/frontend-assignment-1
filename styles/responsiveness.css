@@ -4,7 +4,7 @@
     width: 80vw;
   }
 
-  header {
+  h1 {
     &.home {
       font-size: 1.4rem;
     }
@@ -111,7 +111,7 @@
 }
 
 @media only screen and (max-height: 560px) {
-  header {
+  h1 {
     &.home {
       font-size: 1rem;
     }
