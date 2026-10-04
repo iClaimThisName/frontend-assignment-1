@@ -39,6 +39,7 @@
 .contact-header {
   grid-area: 1 / span 2;
   align-self: flex-end;
+  padding-top: 1rem;
 }
 
 .contact-label {

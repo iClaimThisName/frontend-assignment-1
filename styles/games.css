@@ -48,7 +48,9 @@
 }
 
 .slide-texts {
-  background-color: blue;
+  font-family: pixelify;
+  font-size: 1.5rem;
+  color: var(--color-blue);
 }
 
 .slide-button {
