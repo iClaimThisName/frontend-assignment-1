@@ -1,0 +1,41 @@
+.about-grid {
+  display: grid;
+  height: 90%;
+  width: 90%;
+  margin: 20px;
+  grid-template: 1fr 3fr 3fr / 1fr;
+}
+
+.about-img {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.about-text {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  padding-top: 10px;
+  width: 75%;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 560px) {
+  .pt-32 {
+    padding-top: 0;
+  }
+
+  .about-img {
+    margin-top: 10px;
+  }
+}

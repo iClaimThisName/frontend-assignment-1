@@ -74,3 +74,33 @@
     font-size: 100%;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .tab {
+    margin-inline: 0.2rem;
+    padding-inline: 0.4rem;
+  }
+
+  .tab-text {
+    font-size: 0.4rem;
+
+    &.selected {
+      font-size: 0.6rem;
+    }
+  }
+
+  .tab-rounded {
+    padding-top: 1vh;
+    padding-inline: 1.5rem;
+  }
+}
+
+@media only screen and (max-height: 560px) {
+  .tab-text {
+    font-size: 0.6rem;
+
+    &.selected {
+      font-size: 0.8rem;
+    }
+  }
+}
