@@ -25,6 +25,10 @@ header {
   margin: 0;
 }
 
+.pt-32 {
+  padding-top: 32px;
+}
+
 @font-face {
   font-family: daydream;
   src: url(../fonts/daydream.otf);

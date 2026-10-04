@@ -1,4 +1,4 @@
-.grid {
+.game-grid {
   display: grid;
   height: 70%;
   width: 90%;
@@ -9,7 +9,7 @@
   gap: 10px;
 }
 
-.grid-item {
+.game-grid-item {
   display: flex;
   justify-content: center;
 
